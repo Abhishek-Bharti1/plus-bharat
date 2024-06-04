@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
       className="
-            bg-[#FAF8F1] 
+            bg-[#fffbe4] 
             mt-[60px] 
             sm:mt-[100px] 
             md:mt-[110px] 
@@ -18,6 +18,7 @@ const About = () => {
             flex flex-col lg:flex-row lg:justify-between
             px-[3%] sm:px-[20%] lg:px-[10%]
             py-[12%] sm:py-[4%]
+            border-b border-fffbe4
         "
     >
       <div className="lg:block sm:flex sm:flex-col sm:justify-center sm:items-center">

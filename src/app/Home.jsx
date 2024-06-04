@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './components/About'
+import BuyGold from './components/BuyGold'
 import Navbar from './components/Navbar'
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
       <Navbar/>  
       <About/>
+      <BuyGold/>
     </div>
   )
 }
