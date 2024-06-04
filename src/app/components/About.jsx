@@ -6,7 +6,7 @@ import NPCI from "../../../public/npci.svg";
 import SONABG from "../../../public/sonaBg.svg";
 import SONAIMG from "../../../public/sonaImg.svg";
 
-const Header = () => {
+const About = () => {
   return (
     <div
       className="
@@ -20,7 +20,7 @@ const Header = () => {
             py-[12%] sm:py-[4%]
         "
     >
-      <div className="mt-10">
+      <div className="lg:block sm:flex sm:flex-col sm:justify-center sm:items-center">
         <p className="text-2xl sm:text-3xl font-semibold lg:mt-20">
           Save smartly in
         </p>
@@ -47,7 +47,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative  lg:block sm:flex sm:flex-col sm:justify-center sm:items-center">
         <Image src={SONABG} alt={SONABG} />
         <Image
           className="absolute top-0 left:[5%] sm:left-[10%]"
@@ -59,4 +59,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default About;
