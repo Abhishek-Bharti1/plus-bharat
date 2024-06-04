@@ -62,14 +62,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-[#A91D3A] font-semibold text-xl">Plus</p>
+            <p className="text-[#A91D3A] font-semibold text-xl mb-5">Plus</p>
+
             <div className="flex gap-20">
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-4">
                 <p>About Us</p>
                 <p>Privacy Policy</p>
-                <p>Terms & COnditions</p>
+                <p>Terms & Conditions</p>
               </div>
-              <div className="flex flex-col gap-2">
+
+              <div className="flex flex-col gap-4">
                 <p>FAQs</p>
                 <p>Blogs</p>
               </div>
