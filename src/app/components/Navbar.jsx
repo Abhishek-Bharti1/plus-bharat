@@ -6,7 +6,7 @@ import BANNER from "../../../public/banner.png";
 import CROSS from "../../../public/cross.svg";
 import LOGO from "../../../public/logo.svg";
 import HAMBURGER from "../../../public/hamburger.svg";
-import CommonButton from "./CommonButton";
+import CommonButton from "./commonComponents/CommonButton";
 
 const Navbar = () => {
     const [show, setShow] = useState(true);
