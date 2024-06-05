@@ -1,54 +1,9 @@
 import React from "react";
-import BONUSES from "../../../public/bonuses.png";
-import GOLDPA from "../../../public/goldPA.png";
-import REDEEM from "../../../public/redeem.png";
-import SERVE from "../../../public/serve.png";
-import INIMAGE from "../../../public/inImage.png";
-import PLUS from "../../../public/plus.png";
-import WITHDRAW from "../../../public/withdraw.png";
 import Image from "next/image";
+import { AppWorkData1, AppWorkData2 } from "@/utils/constants";
 
 const AppWork = () => {
-  const data1 = [
-    {
-      image: PLUS,
-      title: "What is Plus Gold?",
-      desc: "Built on Augmont",
-    },
-    {
-      image: SERVE,
-      title: "How to save on Plus?",
-      desc: "SIP or One-time",
-    },
-    {
-      image: REDEEM,
-      title: "How to Redeem?",
-      desc: "Cash, Gold or jewellery",
-    },
-  ];
-
-  const data2 = [
-    {
-      image: INIMAGE,
-      title: "No Lock-in on",
-      title2: "Plus Gold",
-    },
-    {
-      image: WITHDRAW,
-      title: "Easy",
-      title2: "Withdrawal",
-    },
-    {
-      image: GOLDPA,
-      title: "Fixed Extra",
-      title2: "Gold p.a.",
-    },
-    {
-      image: BONUSES,
-      title: "Bonus benefits",
-      title2: "from Jeweller",
-    },
-  ];
+ 
   return (
     <div className="mt-16">
       <div>
@@ -61,7 +16,7 @@ const AppWork = () => {
 
         <div className="mt-10 rounded-3xl container w-[90%] lg:w-[85%] mx-auto px-4 py-5 border border-orange-200 bg-[#FAF8F1]">
           <div className="flex flex-wrap justify-center">
-            {data1?.map((el, index) => (
+            {AppWorkData1?.map((el, index) => (
               <div
                 key={index}
                 className="w-full md:w-1/2 lg:w-1/3 p-2 flex justify-center"
@@ -81,7 +36,7 @@ const AppWork = () => {
         </div>
 
         <div className="w-[65%] sm:w-[80%] lg:w-[85%] m-auto mt-10 grid grid-rows-4 sm:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-5 lg:gap-10">
-          {data2?.map((el, index) => (
+          {AppWorkData2?.map((el, index) => (
             <div className="flex gap-5 items-center border border-orange-200 bg-[#FAF8F1] rounded-3xl px-2 py-2" key={index}>
               <div>
                 <Image src={el.image} alt={el.image} />

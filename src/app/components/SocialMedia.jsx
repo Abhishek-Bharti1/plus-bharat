@@ -1,15 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import EN from "../../../public/enTracker.png";
-import ENLOGO from "../../../public/entrackerLogo.svg";
-import FORBES from "../../../public/forbes.png";
-import FORBESLOGO from "../../../public/forbeslogo.svg";
-import TIME from "../../../public/timeApplaudLogo.svg";
-import TIMENEWS from "../../../public/timesApplaudNewsPic.png";
-import YOURSTORY from "../../../public/yourstory.svg";
-import YOURSTORYNEWS from "../../../public/yourstoryNewsPic.png";
 import Slider from "react-slick";
+import { SocialMediaData } from "@/utils/constants";
 const settings = {
     className: "center",
     infinite: true,
@@ -47,32 +40,7 @@ const settings = {
     ]
 };
 const SocialMedia = () => {
-  const data = [
-    {
-      bg: EN,
-      logo: ENLOGO,
-      desc: "Plus launches a new savings app with exclusive and attractive offers for India’s jewellery purchasers",
-      link: "https://entrackr.com/2023/08/jewellery-savings-app-plus-raises-350k-in-seed-round/",
-    },
-    {
-      bg: FORBES,
-      logo: FORBESLOGO,
-      desc: "Plus disrupts Indias gold market, Democratising a timeless asset",
-      link: "https://www.forbesindia.com/article/brand-connect/plus-disrupts-indias-gold-market-democratising-a-timeless-asset/91835/1",
-    },
-    {
-      bg: TIMENEWS,
-      logo: TIME,
-      desc: "Know how the Plus app helps Indian homemakers save for jewellery and gold",
-      link: "https://timesapplaud.com/know-how-the-plus-app-helps-indian-homemakers-save-for-jewellery-and-gold/",
-    },
-    {
-      bg: YOURSTORYNEWS,
-      logo: YOURSTORY,
-      desc: "This savings app helps users plan for their next jewellery purchase",
-      link: "https://yourstory.com/2023/01/this-savings-app-helps-users-plan-for-their-next-jewellery-purchase",
-    },
-  ];
+ 
 
   return (
     <div className="mb-20 mt-20">
@@ -85,7 +53,7 @@ const SocialMedia = () => {
 
       <div className="slider-container sm:w-[85%] lg:w-[70%] m-auto">
           <Slider {...settings}>
-        {data?.map((el, index) => (
+        {SocialMediaData?.map((el, index) => (
             <a href={el.link} target="_blank" className="cursor-pointer">
               <div className="pt-3 pb-10 pr-3 pl-3 border border-orange-200 text-center bg-[#FAF8F1] w-[300px] rounded-3xl">
                 <Image className="block m-auto mb-5" src={el.bg} alt={el.bg} />
