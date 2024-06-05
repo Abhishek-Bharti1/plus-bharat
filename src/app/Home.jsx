@@ -5,9 +5,9 @@ import AppWork from './components/AppWork'
 import BuyGold from './components/BuyGold'
 import DownloadApp from './components/DownloadApp'
 import Footer from './components/Footer'
-import Goals from './components/Goals'
 import Navbar from './components/Navbar'
 import Secure from './components/Secure'
+import SocialMedia from './components/SocialMedia'
 import TrustedBy from './components/TrustedBy.jsx'
 
 const HomePage = () => {
@@ -20,6 +20,7 @@ const HomePage = () => {
       <AdVedio/>
       {/* <Goals/> */}
       <TrustedBy/>
+      <SocialMedia/>
       <DownloadApp/>
       <Secure/>
       <Footer/>
