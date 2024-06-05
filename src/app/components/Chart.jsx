@@ -22,7 +22,7 @@ const Chart = () => {
               backgroundColor: selectChart.title === chart.title ? 'black' : '#F6F5F2',
               color: selectChart.title === chart.title ? 'white' : 'black',
               margin: '5px',
-              padding: '2px 6px',
+              padding: '2px 14px',
               borderRadius:"5px"
             }}
           >
