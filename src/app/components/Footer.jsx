@@ -16,7 +16,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <div className="w-full bg-[#fff5e0] py-20">
+      <div className="w-full bg-[#fff5e0] py-20 sm:bg-[#fff5e0]">
         <div className="w-[90%] sm:w-[85%] lg:px-10 lg:pr-20 m-auto flex flex-col gap-10 sm:flex-row justify-between items-center">
           <div>
             <Image src={LOGO} alt={LOGO} width={200} />
