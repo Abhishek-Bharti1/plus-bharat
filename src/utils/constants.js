@@ -17,6 +17,12 @@ import AKSHAYTRITIYA from "../../public/akshayaTrithiya.png";
 import ANNIVERSARY from "../../public/festival.png";
 import DHANTERS from "../../public/dhanteras.png";
 import WEDDING from "../../public/wedding.png";
+import MONTHONE from "../../public/m1.png";
+import MONTHSIX from "../../public/m6.png";
+import MAX from "../../public/max.png";
+import WEAKONE from "../../public/week.png";
+import YEARONE from "../../public/y1.png";
+import YEARTHREE from "../../public/y3.png";
 export const SocialMediaData = [
     {
       bg: EN,
@@ -107,3 +113,13 @@ export const SocialMediaData = [
       price: 150
     },
   ];
+
+  export const chartData = [
+    { title: '1W', img: WEAKONE },
+    { title: '1M', img: MONTHONE },
+    { title: '6M', img: MONTHSIX },
+    { title: '1Y', img: YEARONE },
+    { title: '3Y', img: YEARTHREE },
+    { title: 'Max', img: MAX }
+  ];
+  
