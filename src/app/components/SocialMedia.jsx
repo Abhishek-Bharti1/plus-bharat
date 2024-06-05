@@ -54,7 +54,7 @@ const SocialMedia = () => {
       <div className="slider-container sm:w-[85%] lg:w-[70%] m-auto">
           <Slider {...settings}>
         {SocialMediaData?.map((el, index) => (
-            <a href={el.link} target="_blank" className="cursor-pointer">
+            <a href={el.link} target="_blank" className="cursor-pointer" key={index}>
               <div className="pt-3 pb-10 pr-3 pl-3 border border-orange-200 text-center bg-[#FAF8F1] w-[300px] rounded-3xl">
                 <Image className="block m-auto mb-5" src={el.bg} alt={el.bg} />
                 <div className="mb-10">{el.desc}</div>

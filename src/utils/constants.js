@@ -13,6 +13,10 @@ import SERVE from "../../public/serve.png";
 import INIMAGE from "../../public/inImage.png";
 import PLUS from "../../public/plus.png";
 import WITHDRAW from "../../public/withdraw.png";
+import AKSHAYTRITIYA from "../../public/akshayaTrithiya.png";
+import ANNIVERSARY from "../../public/festival.png";
+import DHANTERS from "../../public/dhanteras.png";
+import WEDDING from "../../public/wedding.png";
 export const SocialMediaData = [
     {
       bg: EN,
@@ -78,5 +82,28 @@ export const SocialMediaData = [
       image: BONUSES,
       title: "Bonus benefits",
       title2: "from Jeweller",
+    },
+  ];
+
+  export const LifeGoalsData = [
+    {
+      title: 'Akshay Tritiya',
+      img: AKSHAYTRITIYA,
+      price: 100
+    },
+    {
+      title: 'Dream Anniversary',
+      img: ANNIVERSARY,
+      price: 100
+    },
+    {
+      title: 'Upcoming Wedding',
+      img: WEDDING,
+      price: 200
+    },
+    {
+      title: 'Dhanteras',
+      img: DHANTERS,
+      price: 150
     },
   ];

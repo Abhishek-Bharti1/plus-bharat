@@ -1,6 +1,5 @@
-import { lazy } from "react";
+import HomePage from "./Home";
 
-const HomePage = lazy(()=>import("./Home"));
 
 export default function Home() {
   return (

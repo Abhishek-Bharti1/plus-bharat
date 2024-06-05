@@ -6,6 +6,7 @@ import BuyGold from './components/BuyGold'
 import Chart from './components/Chart'
 import DownloadApp from './components/DownloadApp'
 import Footer from './components/Footer'
+import Goals from './components/Goals'
 import Navbar from './components/Navbar'
 import Secure from './components/Secure'
 import SocialMedia from './components/SocialMedia'
@@ -19,7 +20,7 @@ const HomePage = () => {
       <BuyGold/>
       <AppWork/>
       <AdVedio/>
-      {/* <Goals/> */}
+      <Goals/>
       <Chart/>
       <TrustedBy/>
       <SocialMedia/>
